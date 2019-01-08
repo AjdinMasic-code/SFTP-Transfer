@@ -12,17 +12,17 @@ Powershell Version 3+
 <br />
 sftpUpload.ps1
 <br />
-         [-logFile <String>]
+&nbsp;&nbsp;&nbsp;[-logFile <String>]
          <br />
-         [-sourceFile <String>]
+&nbsp;&nbsp;&nbsp;[-sourceFile <String>]
          <br />
-         [-sftpServer <String>]
+&nbsp;&nbsp;&nbsp;[-sftpServer <String>]
          <br />
-         [-sftpDest <String>]
+&nbsp;&nbsp;&nbsp;[-sftpDest <String>]
          <br />
-         [-username <String>]
+&nbsp;&nbsp;&nbsp;[-username <String>]
          <br />
-         [-password <SecureString>]
+&nbsp;&nbsp;&nbsp;[-password <SecureString>]
 <br />
 <br />
 <b>How to use:</b>
@@ -39,34 +39,34 @@ I.E.
 <br />
 Param(
 <br/>
-    [string]$logFile,
+&nbsp;&nbsp;&nbsp;[string]$logFile,
     <br />
-    [string]$sourceFile,
+&nbsp;&nbsp;&nbsp;[string]$sourceFile,
     <br />
-    [string]$sftpServer,
+&nbsp;&nbsp;&nbsp;[string]$sftpServer,
     <br />
-    [string]$sftpDest,
+&nbsp;&nbsp;&nbsp;[string]$sftpDest,
     <br />
-    [string]$username,
+&nbsp;&nbsp;&nbsp;[string]$username,
      <br />
-    [SecureString]$password
+&nbsp;&nbsp;&nbsp;[SecureString]$password
 <br />
 )
 <br />
 TO:
 Param(
 <br />
-    [string]$logFile,
+&nbsp;&nbsp;&nbsp;[string]$logFile,
     <br />
-    [string]$sourceFile,
+&nbsp;&nbsp;&nbsp;[string]$sourceFile,
     <br />
-    [string]$sftpServer,
+&nbsp;&nbsp;&nbsp;[string]$sftpServer,
     <br />
-    [string]$sftpDest,
+&nbsp;&nbsp;&nbsp;[string]$sftpDest,
     <br />
-    [string]$username,
+&nbsp;&nbsp;&nbsp;[string]$username,
     <br />
-    [string]$password
+&nbsp;&nbsp;&nbsp;[string]$password
 <br />
 )
 <br />
