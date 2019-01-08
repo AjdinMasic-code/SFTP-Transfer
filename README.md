@@ -4,13 +4,13 @@ A template for file transfers via SFTP
 <h1><b>SFTP Transfer</b></h1>
 <br />
 <br />
-<b>Requirements</b>
+<b>Requirements:</b>
 <br />
 Posh-SSH
 Powershell Version 3+
 <br />
 <br />
-<b>Parameters to pass</b>
+<b>Parameters to pass:</b>
 <br />
 ConvertTo-Html
          [-logFile <String>]
@@ -27,7 +27,8 @@ ConvertTo-Html
 .\sftpUpload.ps1 -logFile "C:\LogFile_$(Get-Date -UFormat %Y%m%d%H%M).txt" -sourceFile "C:\bla.txt" -sftpServer "server.bla.com" -sftpDest "/foo/bar" -username "username" -password (ConvertTo-SecureString "password" -AsPlainText -Force)
 <br />
 <br />
-<b>Notes</b>
+<b>Notes:</b>
+<br />
 Password is passed as secure string for security purposes. You can, but I don't recommend, change how the Param is set up.
 <br />
 I.E.
