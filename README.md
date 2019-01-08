@@ -1,7 +1,5 @@
 # SFTP-Transfer
 A template for file transfers via SFTP
-
-<h1><b>SFTP Transfer</b></h1>
 <br />
 <br />
 <b>Requirements:</b>
@@ -78,4 +76,4 @@ $password = ConvertTo-SecureString "$password" -AsPlainText -Force)
 That way you can avoid converting the password to SecureString when passing the parameter to the script. <b>Again I don't recommend doing this for security reasons</b>
 <br />
 <br />
-<h2><b>I will be updating this repository with more SFTP scripts like handling multiple files, directories, etc.</b></h2>
+<h3><b>I will be updating this repository with more SFTP scripts like handling multiple files, directories, etc.</b></h3>
