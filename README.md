@@ -12,12 +12,18 @@ Powershell Version 3+
 <br />
 <b>Parameters to pass:</b>
 <br />
-ConvertTo-Html
+sftpUpload.ps1
+<br />
          [-logFile <String>]
+         <br />
          [-sourceFile <String>]
+         <br />
          [-sftpServer <String>]
+         <br />
          [-sftpDest <String>]
+         <br />
          [-username <String>]
+         <br />
          [-password <SecureString>]
 <br />
 <br />
@@ -36,10 +42,15 @@ I.E.
 Param(
 <br/>
     [string]$logFile,
+    <br />
     [string]$sourceFile,
+    <br />
     [string]$sftpServer,
+    <br />
     [string]$sftpDest,
+    <br />
     [string]$username,
+     <br />
     [SecureString]$password
 <br />
 )
@@ -48,15 +59,20 @@ TO:
 Param(
 <br />
     [string]$logFile,
+    <br />
     [string]$sourceFile,
+    <br />
     [string]$sftpServer,
+    <br />
     [string]$sftpDest,
+    <br />
     [string]$username,
+    <br />
     [string]$password
 <br />
 )
 <br />
-And then immediatelly after that:
+And the above code block:
 $password = ConvertTo-SecureString "$password" -AsPlainText -Force)
 <br />
 That way you can avoid converting the password to SecureString when passing the parameter to the script. <b>Again I don't recommend doing this for security reasons</b>
