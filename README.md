@@ -70,7 +70,7 @@ Param(
 <br />
 )
 <br />
-And the above code block:
+After the above code block:
 $password = ConvertTo-SecureString "$password" -AsPlainText -Force)
 <br />
 That way you can avoid converting the password to SecureString when passing the parameter to the script. <b>Again I don't recommend doing this for security reasons</b>
