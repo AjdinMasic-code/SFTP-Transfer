@@ -52,7 +52,7 @@ Import-Module Posh-SSH
     catch {
 
         "Setting up SFTP session has failed..." >> $logFile
-        $Error
+        $Error >> $logFile
 
     }
 
@@ -72,7 +72,7 @@ Import-Module Posh-SSH
     catch {
 
         "SFTP transfer failed" >> $logFile
-        $Error
+        $Error >> $logFile
 
     }
 
